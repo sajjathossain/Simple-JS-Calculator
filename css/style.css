@@ -1,0 +1,97 @@
+:root {
+    --default-background-color : #ecf0f3;
+    --default-button-otter-color : #ffffff;
+    --default-button-shadow-color : #c0ced1;
+}
+
+* {
+    font-family: "times new roman", arial;
+    background-color: var(--default-background-color);
+    font-weight: bold;
+}
+
+body {
+    background-color: var(--default-background-color);
+    overflow: hidden;
+}
+
+.container {
+    width: 350px;
+    background-color: var(--default-background-color);
+    margin: auto auto;
+    margin-top: 10vh;
+    padding: 30px 15px 15px 15px;
+    /*border: 1px dotted dimgrey;*/
+    border-radius: 40px;
+    box-shadow: 13px 13px 20px var(--default-button-shadow-color),
+                -13px -13px 20px var(--default-button-otter-color);
+}
+
+table {
+    width: 100%;
+    border-color: #ecf0f3;
+}
+
+td {
+    width: 25%;
+    padding: 10px;
+}
+
+#top{
+    text-align: center;
+    font-size: 24px;
+    color: dimgrey;
+}
+
+.operator{
+    color: orangered;
+    font-weight: bolder;
+}
+
+.actionBtn{
+    color: royalblue;
+}
+
+button {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    background-color: var(--default-background-color);
+    border: none;
+    outline: none;
+    padding: 3px 3px 3px 3px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 7px var(--default-button-shadow-color),
+                -3px -3px 7px var(--default-button-otter-color);
+}
+
+button:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+button:active{
+    color: coral;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 7px var(--default-button-otter-color),
+                inset 3px 3px 7px var(--default-button-shadow-color);
+    transition: 1s;
+}
+
+#outputLabel{
+    /*height: 60px;*/
+    font-size: 26px;
+    color: dimgrey;
+    vertical-align: bottom;
+    text-align: right;
+    padding: 10px;
+}
+
+#inputLabel {
+    /*height: 60px;*/
+    font-size: 24px;
+    color: #b1b0b0;
+    vertical-align: bottom;
+    text-align: right;
+    padding: 10px;
+}

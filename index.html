@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple JS Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <table border="0" cellspacing="0">
+            <tr>
+                <td id="top" colspan="4">JS Calculator</td>
+            </tr>
+            <tr>
+                <td colspan="4" id="outputLabel">0</td>
+            </tr>
+            <tr>
+                <td colspan="4" id="inputLabel">0</td>
+            </tr>
+            <tr>
+                <td><button class="actionBtn" onclick="clickedBtn(this);">AC</button></td>
+                <td><button class="actionBtn" onclick="clickedBtn(this);">MC</button></td>
+                <td><button class="actionBtn" onclick="clickedBtn(this);">M+</button></td>
+                <td><button class="operator" onclick="clickedBtn(this);">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="clickedBtn(this);">7</button></td>
+                <td><button onclick="clickedBtn(this);">8</button></td>
+                <td><button onclick="clickedBtn(this);">9</button></td>
+                <td><button class="operator" onclick="clickedBtn(this);">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="clickedBtn(this);">4</button></td>
+                <td><button onclick="clickedBtn(this);">5</button></td>
+                <td><button onclick="clickedBtn(this);">6</button></td>
+                <td><button class="operator" onclick="clickedBtn(this);">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="clickedBtn(this);">1</button></td>
+                <td><button onclick="clickedBtn(this);">2</button></td>
+                <td><button onclick="clickedBtn(this);">3</button></td>
+                <td><button class="operator" onclick="clickedBtn(this);">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="clickedBtn(this);">0</button></td>
+                <td><button onclick="clickedBtn(this);">.</button></td>
+                <td><button class="operator" onclick="clickedBtn(this);">=</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
