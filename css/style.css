@@ -75,7 +75,7 @@ button:active{
     cursor: pointer;
     box-shadow: inset -3px -3px 7px var(--default-button-otter-color),
                 inset 3px 3px 7px var(--default-button-shadow-color);
-    transition: 1s;
+    transition: .1s;
 }
 
 #outputLabel{
