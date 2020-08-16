@@ -5,7 +5,7 @@
 }
 
 * {
-    font-family: "times new roman", arial;
+    font-family: 'Lobster', cursive;
     background-color: var(--default-background-color);
     font-weight: bold;
 }
